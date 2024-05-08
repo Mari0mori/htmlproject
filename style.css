@@ -1,0 +1,61 @@
+* {
+    margin:0px;
+}
+header {
+    margin:35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #ffffff;
+}
+body {
+    background-color:blue;
+    background-image: url(img/green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.main {
+    text-align: center;
+    margin: 200px 520px;
+}
+h2 {
+    font-size: 100px;
+    border-bottom:1px solid #ffffff;
+    
+}
+h3 {
+    font-size: 50px;
+    font-family: ;
+}
+.footer-section img {
+    width: 700px;
+    height:500px;
+    flex-wrap:wrap;
+}
+footer {
+    background:rgb(0, 0, 0);
+}
+p {
+   float:left;
+}
+.location {
+    display: flex;
+    align-items: center;
+}
+.apple {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pasta {
+    display: flex;
+    align-items: center;
+}
+.apple img {
+    margin-right: 20px
+}
